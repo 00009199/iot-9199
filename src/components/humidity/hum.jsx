@@ -24,7 +24,7 @@ const Humidity = () => {
       humRef.off('value', handleHumarature);
       cancel();
     }
-    }, []);
+    }, [cancel]);
 
     const handleSpeakButtonClick = () =>{
       if(hum !== null){
