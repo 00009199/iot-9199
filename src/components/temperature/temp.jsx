@@ -25,7 +25,7 @@ const Temperature = () => {
       tempRef.off('value', handleTemparature);
       cancel();
     }
-    }, []);
+    }, [cancel]);
 
     const handleSpeakButtonClick = () =>{
       if(temp !== null){
