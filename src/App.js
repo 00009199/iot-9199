@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Humidity from './components/humidity/hum';
 import Temperature from './components/temperature/temp';
