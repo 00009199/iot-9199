@@ -5,6 +5,8 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import firebase from 'firebase/compat/app';
 import '../../firebase';
 import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+
 
 const Distance = () => {
   const [dist, setdist] = useState(null);
