@@ -1,6 +1,6 @@
 # Link to web application 
 
-http://192.168.100.24:51405/
+https://iot2023-7a185--pr10-dev-4fxs3p6v.web.app/
 
 # Getting Started with Create React App
 
