@@ -24,7 +24,7 @@ const Distance = () => {
       distRef.off('value', handledistance);
       cancel();
     }
-    }, [cancel]);
+    }, []);
 
     const handleSpeakButtonClick = () =>{
       if(dist !== null){

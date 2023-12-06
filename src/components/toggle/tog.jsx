@@ -31,7 +31,7 @@ const ToggleSwitch = () => {
       buzRef.off('value');
       cancel();
     };
-  },[cancel]);
+  },[]);
 
 
 return (
