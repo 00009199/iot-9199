@@ -4,7 +4,6 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import firebase from 'firebase/compat/app';
 import '../../firebase';
 import { CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 
 const Humidity = () => {
   const [hum, setHum] = useState(null);
@@ -24,7 +23,7 @@ const Humidity = () => {
       humRef.off('value', handleHumarature);
       cancel();
     }
-    }, []);
+    }, [cancel]);
 
     const handleSpeakButtonClick = () =>{
       if(hum !== null){

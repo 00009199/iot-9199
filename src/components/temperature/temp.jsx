@@ -5,7 +5,6 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import firebase from 'firebase/compat/app';
 import '../../firebase';
 import { CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 
 const Temperature = () => {
   const [temp, setTemp] = useState(null);
@@ -25,7 +24,7 @@ const Temperature = () => {
       tempRef.off('value', handleTemparature);
       cancel();
     }
-    }, []);
+    }, [cancel]);
 
     const handleSpeakButtonClick = () =>{
       if(temp !== null){
